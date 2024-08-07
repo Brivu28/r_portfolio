@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Portfolio</title>
+</head>
+<body>
+  <secton id="container">
+    <div class="navbar">
+        <ul>
+           <li class="li"> <a href="#container">Home</a>    </li>
+           <li class="li"> <a href="#intro">My Intro</a>    </li>
+           <li class="li"> <a href="#Facilities">Facilities</a>    </li>
+           <li class="li"> <a href="#projects">Projects</a>    </li>
+           <li class="li"> <a href="#contact">Contact Me</a>    </li>
+         
+        </ul>
+    </div>
+<div class="bodyy">
+    <div class="hero">
+        <div class="type"><h1 style="color:">HELLO</h1><h2>I Am Rivu Biswas</h2></div>
+        <div class="effect"><h1>SOFTWARE ENGINEER</h1></div>
+        <div class="div"><h2>Welcome To My Portfolio</h2></div>
+        <div class="resume">
+          <button class="butt"> <a id="hov"  style="color:white;text-decoration: none;" href="MyResume.pdf" target="_blank" download>Download Resume</a></button>
+          <button class="butt"><a id="hov" style="color:white;text-decoration: none;" href="MyResume.pdf" target="_blank">View Resume</a></button>
+        </div>
+    </div>
+    <div class="img"><img src="image.jpg" alt=""></div>
+  </div>
+  </secton>
+
+  <section id="intro">
+      
+    <div class="headingIntro"><span>MY</span><span style="color:rgb(255, 166, 0)"> INTRO</span></div>
+
+    <div class="contentIntro">
+      <div class="textIntro"><h2>I Am A Computer Science And Engineering Student From Gargi Memorial Institution Of Technology.I Am A Software Engineer Who Has An Keen Interest In Front-End Web Developer, Basic Level Designing And A Tech Enthuassist.</h2><hr></div>
+      <div class="imgIntro"><img id="imgIntro" src="g.jpg" alt=""></div>
+    
+    </div>
+
+  </section>
+  <section id="Facilities">
+    <div class="headingIntro"><span style="color:rgb(255, 166, 0)"> Facilities </span></div>
+    <div class="fac">
+      <div class="tech"><h2>Tech Skills</h2>
+      <ol>
+        <li>Programming Language :- C, Java, Python</li>
+        <li>Front-End: HTML, CSS, JavaScript, React</li>
+        <li>Back-End: Java, Node Js</li>
+        <li>Database: SQL</li>
+      </ol>
+      </div>
+      <div class="tech"><h2>Facilities</h2>
+            <ol>
+              <li>Front-End</li>
+              <li>Back-End</li>
+              <li>Database</li>
+              <li>Designing</li>
+            </ol>
+      </div>
+      <div class="tech"><h2>Language</h2><ol>
+        <li>English</li>
+        <li>Bengali</li>
+        <li>Hindi</li>
+      </ol>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects"><div class="headingIntro">PROJECTS</div>
+  
+  <div class="projectBody">
+    <div class="first"><img src="health.avif" alt="">HEALTH DETECTOR SYSTEM</div>
+    <div class="first"><img src="OIP.jpeg" alt="">VIDEO SHARING PLATFORM SYSTEM</div>
+    <div class="first"><img src="smp.jpg" alt="">SMART PARKING SYSTEM </div>
+  </div>
+
+  <div class="headingIntro">Other Projects</div>
+
+  <div class="projectBody">
+    <div class="first"><img src="am copy.jpeg" alt="">Clone Projects</div>
+    <div class="first"><img src="sp.jpg" alt="">Sportshop Website</div>
+    <div class="first"><img src="tic.jpeg" alt="">Minor Games</div>
+  </div>
+</section>
+
+<section id="contact">
+  <div class="headingIntro"><span style="color: rgb(255, 166, 0);">Contact</span> <span>Me</span></div>
+
+  <div class="contact"><span>Reach </span><span style="color:rgb(255, 166, 0) ;">Me </span><span>Out</span></div>
+  <div class="parts">
+    <div class="social"><h2 style="margin-bottom: 1px;" >Social Media</h2>
+   
+       <br> <a   href="https://www.linkedin.com/in/rivu-biswas-507838304/"  target="_blank">Linkedin</a><br>
+        <a  href="https://github.com/Brivu28?tab=repositories" target="_blank">Github</a><br>
+        <a  href="https://leetcode.com/u/rivu28/" target="_blank">Leetcode</a><br>
+        <a href="https://www.instagram.com/rivu.biswas_18/" target="_blank">Instagram</a>
+
+    </div>
+    <div class="email"><h2>Email</h2> <br>
+      <a href="mailto:biswasrivu06.10.2003@gmail.com">biswasrivu06.10.2003@gmail.com</a> 
+      
+    </div>
+    <div class="no"><h2>Contact Number</h2>
+    <div style="margin:3vh 0vh 0vh 1vh;"><a  href="933-552025">9330552025</a></div>
+    <div class="col" style="margin:27vh 0vh 0vh 15vh;">Lets Colaborate</div>
+    </div>
+  </div>
+</section>
+
+
+  <script>
+    const a = document.querySelector(".effect");
+
+    const change = () =>{
+      setTimeout(()=>{
+        a.textContent = "SOFTWARE ENGINEER";
+       // a.style.fontSize="50px";
+      },0);
+      setTimeout(()=>{
+        a.textContent = "FRONTEND DEVELOPER";
+       // a.style.fontSize="50px";
+      },2500);
+      setTimeout(()=>{
+        a.textContent = "FRONTEND DESIGNER";
+        //a.style.fontSize="50px";
+      },5300);
+    }
+
+    change();
+
+    setInterval(change,7500);
+  </script>
+
+</body>
+</html>
